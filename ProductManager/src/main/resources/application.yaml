@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ProductManager
+  h2:
+    console:
+      enabled: true
+  datasource:
+    generate-unique-name: false
+    name: ProductManager
+  jpa:
+    show-sql: true
+    open-in-view: true
+    defer-datasource-initialization: true
